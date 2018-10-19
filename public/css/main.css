@@ -1,0 +1,25 @@
+.upload-drop-zone {
+    height: 200px;
+    margin-bottom: 20px;
+    color: #CCC;
+    border: 2px dashed #CCC;
+    line-height: 200px;
+    text-align: center
+}
+
+.upload-drop-zone.dragging-over {
+    background-color: #F5F5F5;
+}
+
+img.image-preview {
+    width: 300px;
+    height: auto;
+}
+
+#processed-files-container {
+    visibility: hidden;
+}
+
+#processed-files-container.revealed {
+    visibility: visible;
+}
